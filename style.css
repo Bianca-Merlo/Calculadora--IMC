@@ -1,0 +1,79 @@
+@charset 'UTF-8';
+
+body{
+    background:linear-gradient(to bottom, #ebd5ac, #ffae00);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    }
+
+    div#container{ background-color: rgb(255, 197, 90);
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    }
+
+
+    div#resultado{
+    display: flex;    
+    background-color: orange;
+    width: 400px;
+    height: 130px;
+    border-radius: 10px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    text-align: center;
+}
+
+    div#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffae00;
+    border: 1px solid black;
+    border-radius:10px;
+    gap: 15px;}
+   
+    .input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    }
+    
+   
+    h1{text-align: center;
+    padding-bottom: 10px;}
+
+
+    input{ border-radius: 6px;
+    padding: 8px;
+    margin-top: 10px;
+    }
+
+    input#calcular { background-color: rgb(143, 191, 255);
+    width: 240px;
+    padding: 10px;}
+
+    input#calcular:hover {
+    background-color: orange;
+    cursor: pointer;
+    }
+
+   img{position: fixed; /* Mantém a imagem fixa na tela */
+    bottom: 30px; /* Distância do fundo */
+    right: 20px; /* Distância da direita */
+    width: 100px; /* Define um tamanho para a imagem */
+    height: auto;}
+
